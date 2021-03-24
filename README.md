@@ -34,3 +34,10 @@ npm install mongodb
 
 Create a free MongoDB Atlas cluster and load the sample data
 
+```
+npm install mongoose express body-parser
+```
+
+
+
+

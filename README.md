@@ -39,5 +39,16 @@ npm install mongoose express body-parser
 ```
 
 
+```
+mkdir -p api/{controllers,models,routes}
+touch api/controllers/memberController.js api/models/memberModel.js api/routes/memberRoutes.js
+mkdir config
+touch config/db.js
+npm init
+npm install mongoose express body-parser
+
+```
+
+
 
 

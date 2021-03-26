@@ -57,7 +57,7 @@ A JWT is made up of three components in the form of strings separated by a dot (
 * Payload
 * Signature
 
-*Header* – A Base64 encoded object that consists of two properties: type declaration and the hashing algorithm. The object declaration is seen in the following snippet:
+**Header** – A Base64 encoded object that consists of two properties: type declaration and the hashing algorithm. The object declaration is seen in the following snippet:
 
 ```
 {
@@ -68,3 +68,12 @@ A JWT is made up of three components in the form of strings separated by a dot (
 The result for the above object after encoding - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 
 
+
+
+
+
+```
+npm install jsonwebtoken
+npm install bcryptjs
+
+```

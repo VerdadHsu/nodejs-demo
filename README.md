@@ -50,5 +50,20 @@ npm install mongoose express body-parser
 ```
 
 
+#A JWT is made up of three components in the form of strings separated by a dot (.). These components are as follows:
+
+*Header
+*Payload
+*Signature
+
+*Header* – A Base64 encoded object that consists of two properties: type declaration and the hashing algorithm. The object declaration is seen in the following snippet:
+
+```
+{
+    "typ": "JWT”, // will always be JWT
+    "alg": "HS256” // any preferred hashing algorithm (HMAC SHA256 is preferred in this case)
+}
+```
+The result for the above object after encoding - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 
 

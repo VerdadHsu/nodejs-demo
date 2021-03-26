@@ -77,3 +77,25 @@ npm install jsonwebtoken
 npm install bcryptjs
 
 ```
+
+# Unit Testing
+```
+npm install chai
+npm install mocha
+npm install chai-http
+```
+
+# outline
+- Cluster created in MongoDB Atlas cloud database.
+- Schema and model created for Todo
+- Database connected to Application
+- Express Application created
+- Application API Endpoints defined
+- Schema and Model created for User
+- Controller functions for User Authentication created
+- JWT Token signed
+- API Endpoint and Routes for Login and Register defined
+- User Authentication Controller applied on To-do Application endpoints
+- JWT Token Verified
+
+
